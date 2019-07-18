@@ -1,0 +1,13 @@
+Configure miss: icc
+Configure miss: suncc
+Configure miss: if compiler supports -R
+Configure miss: if debug is enabled
+Configure miss: if zts is enabled
+Configure miss: if APCu should be built in debug mode
+Configure miss: if APCu should clear on SIGUSR1
+Configure miss: if APCu should utilize spinlocks before flocks
+Configure miss: union semun
+Configure miss: valgrind/memcheck.h usability
+Configure miss: valgrind/memcheck.h presence
+Configure miss: valgrind/memcheck.h
+Configure miss: whether to include code coverage symbols
