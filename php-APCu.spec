@@ -4,9 +4,9 @@
 #
 Name     : php-APCu
 Version  : 5.1.17
-Release  : 1
-URL      : https://pecl.php.net//get/apcu-5.1.17.tgz
-Source0  : https://pecl.php.net//get/apcu-5.1.17.tgz
+Release  : 2
+URL      : https://pecl.php.net/get/apcu-5.1.17.tgz
+Source0  : https://pecl.php.net/get/apcu-5.1.17.tgz
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : PHP-3.01
