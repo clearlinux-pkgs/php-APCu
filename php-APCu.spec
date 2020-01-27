@@ -4,7 +4,7 @@
 #
 Name     : php-APCu
 Version  : 5.1.18
-Release  : 4
+Release  : 5
 URL      : https://pecl.php.net/get/apcu-5.1.18.tgz
 Source0  : https://pecl.php.net/get/apcu-5.1.18.tgz
 Summary  : No detailed summary available
@@ -12,6 +12,7 @@ Group    : Development/Tools
 License  : PHP-3.01
 Requires: php-APCu-lib = %{version}-%{release}
 BuildRequires : buildreq-php
+BuildRequires : pcre2-dev
 BuildRequires : util-linux
 BuildRequires : valgrind-dev
 
@@ -78,4 +79,4 @@ make  %{?_smp_mflags}
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20180731/apcu.so
+/usr/lib64/extensions/no-debug-non-zts-20190902/apcu.so
