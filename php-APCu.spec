@@ -4,7 +4,7 @@
 #
 Name     : php-APCu
 Version  : 5.1.22
-Release  : 35
+Release  : 36
 URL      : https://pecl.php.net/get/apcu-5.1.22.tgz
 Source0  : https://pecl.php.net/get/apcu-5.1.22.tgz
 Summary  : No detailed summary available
@@ -63,8 +63,8 @@ make  %{?_smp_mflags}
 
 %install
 mkdir -p %{buildroot}/usr/share/package-licenses/php-APCu
-cp %{_builddir}/apcu-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-APCu/23cb6fa873d559515b754db54720962118c95899 || :
-cp %{_builddir}/apcu-%{version}/NOTICE %{buildroot}/usr/share/package-licenses/php-APCu/9b42844f4c6200e7043a6e9e141fc843397ae52f || :
+cp %{_builddir}/apcu-%{version}/LICENSE %{buildroot}/usr/share/package-licenses/php-APCu/23cb6fa873d559515b754db54720962118c95899
+cp %{_builddir}/apcu-%{version}/NOTICE %{buildroot}/usr/share/package-licenses/php-APCu/9b42844f4c6200e7043a6e9e141fc843397ae52f
 %make_install
 
 
@@ -89,7 +89,7 @@ cp %{_builddir}/apcu-%{version}/NOTICE %{buildroot}/usr/share/package-licenses/p
 
 %files lib
 %defattr(-,root,root,-)
-/usr/lib64/extensions/no-debug-non-zts-20210902/apcu.so
+/usr/lib64/extensions/no-debug-non-zts-20220829/apcu.so
 
 %files license
 %defattr(0644,root,root,0755)
