@@ -4,7 +4,7 @@
 #
 Name     : php-APCu
 Version  : 5.1.22
-Release  : 48
+Release  : 49
 URL      : https://pecl.php.net/get/apcu-5.1.22.tgz
 Source0  : https://pecl.php.net/get/apcu-5.1.22.tgz
 Summary  : No detailed summary available
