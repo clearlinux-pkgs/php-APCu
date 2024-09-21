@@ -5,6 +5,5 @@ Configure miss: if APCu should utilize spinlocks before flocks
 Configure miss: if debug is enabled
 Configure miss: if zts is enabled
 Configure miss: suncc
-Configure miss: union semun
 Configure miss: whether to include code coverage symbols
 Configure miss: x86_64-generic-linux-gnu-file
