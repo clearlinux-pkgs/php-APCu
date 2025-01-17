@@ -2,8 +2,8 @@ Configure miss: icc
 Configure miss: if APCu should be built in debug mode
 Configure miss: if APCu should clear on SIGUSR1
 Configure miss: if APCu should utilize spinlocks before flocks
-Configure miss: if debug is enabled
-Configure miss: if zts is enabled
+Configure miss: if PHP is built with thread safety (ZTS)
+Configure miss: if debugging is enabled
 Configure miss: suncc
 Configure miss: whether to include code coverage symbols
 Configure miss: x86_64-generic-linux-gnu-file
